@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
+{
+  "operationCode": "GET_OPERATION_CODE"
+}
+{
+  "userId": "12345",
+  "collegeEmailId": "user@example.com",
+  "collegeRollNumber": "12345"
+}
+{
+  "status": "success",
+  "userId": "12345",
+  "collegeEmailId": "user@example.com",
+  "collegeRollNumber": "12345",
+  "numbers": [1, 2, 3, 4, 5],
+  "alphabets": ["a", "b", "c", "d", "e"]
+}
